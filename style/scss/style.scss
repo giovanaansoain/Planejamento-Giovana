@@ -259,5 +259,58 @@ header {
   .container {
     flex-direction: column;
     height: 640px;
+    position: relative;
+    .clientes {
+      width: 80%;
+      margin: 50px 0;
+      button {
+        height: 55px;
+        background: none;
+        border: none;
+        opacity: 0.2;
+        img {
+          height: 100%;
+          filter: grayscale(100%);
+        }
+      }
+    }
+    .cliente.on {
+      opacity: 1;
+      filter: contrast(100%);
+    }
+    .arrows {
+      width: 100%;
+      position: absolute;
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        svg {
+          height: 25px;
+        }
+      }
+      button:hover {
+        path {
+          opacity: 0.5;
+        }
+      }
+    }
+    .texto {
+      width: 60%;
+      text-align: center;
+      color: $medium-dark;
+      #depoimento {
+        font-size: 24px;
+        line-height: 41px;
+      }
+      #nome {
+        font: $font-20;
+        line-height: 26px;
+      }
+      #cargo {
+        font-size: $font-16;
+      }
+    }
   }
 }

@@ -210,4 +210,45 @@ header {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 640px; }
+  height: 640px;
+  position: relative; }
+  #depoimentos .container .clientes {
+    width: 80%;
+    margin: 50px 0; }
+    #depoimentos .container .clientes button {
+      height: 55px;
+      background: none;
+      border: none;
+      opacity: 0.2; }
+      #depoimentos .container .clientes button img {
+        height: 100%;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%); }
+  #depoimentos .container .cliente.on {
+    opacity: 1;
+    -webkit-filter: contrast(100%);
+    filter: contrast(100%); }
+  #depoimentos .container .arrows {
+    width: 100%;
+    position: absolute; }
+    #depoimentos .container .arrows button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      outline: none; }
+      #depoimentos .container .arrows button svg {
+        height: 25px; }
+    #depoimentos .container .arrows button:hover path {
+      opacity: 0.5; }
+  #depoimentos .container .texto {
+    width: 60%;
+    text-align: center;
+    color: #5A5A5A; }
+    #depoimentos .container .texto #depoimento {
+      font-size: 24px;
+      line-height: 41px; }
+    #depoimentos .container .texto #nome {
+      font: 1.25em;
+      line-height: 26px; }
+    #depoimentos .container .texto #cargo {
+      font-size: 1em; }
