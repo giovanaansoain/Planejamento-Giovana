@@ -370,16 +370,18 @@
       </div>
     </div>
 
-    <div id="contato">
+    <div id="contato" class="container flex justify-center">
       <h3 class="section-title">CONTATO</h3>
-
-      <form class="" action="index.html" method="post">
-        <input type="text" name="nome" value="Nome">
-        <input type="email" name="email" value="Email">
-        <textarea name="mensagem" rows="8" cols="80">Mensagem...</textarea>
-      </form>
-
-      <button type="button" name="enviar-msg">ENVIAR MENSAGEM</button>
+      <div class="form flex align-center">
+        <form class="" action="index.html" method="post">
+          <div class="flex inline justify-sb">
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="email" name="email" placeholder="Email">
+          </div>
+          <textarea name="mensagem" rows="8" cols="80" placeholder="Mensagem..."></textarea>
+          <button type="submit" name="enviar-msg" class="btn-red">ENVIAR MENSAGEM</button>
+        </form>
+      </div>
     </div>
 
     <div id="blog">

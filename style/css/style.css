@@ -252,3 +252,38 @@ header {
       line-height: 26px; }
     #depoimentos .container .texto #cargo {
       font-size: 1em; }
+
+#contato {
+  height: 670px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  #contato h3 {
+    margin: 50px; }
+  #contato .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  #contato form div {
+    width: 100%;
+    margin-bottom: 30px; }
+    #contato form div input {
+      border: none;
+      border-bottom: #DCDDDE 1px solid;
+      width: 48%;
+      outline: none;
+      font-size: 1em;
+      padding: 10px 0;
+      color: #5A5A5A; }
+  #contato form textarea {
+    font-size: 1em;
+    padding: 10px;
+    border-color: #DCDDDE;
+    color: #5A5A5A; }
+  #contato form button {
+    display: block;
+    margin: 40px auto; }
